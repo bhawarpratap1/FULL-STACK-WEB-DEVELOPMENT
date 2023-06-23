@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aquamarine;
+
+    animation-name: bhawar;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes bhawar {
+    from{
+        width: 212px;
+    }
+    to{
+        width: 100%;
+    }
+    
+} */
+
+@keyframes bhawar{
+    0%{
+        width: 212px;
+        background-color: antiquewhite;
+    }
+    30%{
+        width: 30%;
+        background-color: blueviolet;
+    }
+    65%{
+        width: 65%;
+        background-color: chartreuse;
+    }
+    100%{
+        width: 100%;
+        background-color: crimson;
+    }
+}

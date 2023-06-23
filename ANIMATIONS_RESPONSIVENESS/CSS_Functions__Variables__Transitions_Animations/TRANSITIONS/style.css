@@ -1,0 +1,30 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid blue;
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 3px solid orange;
+    background-color: yellowgreen;
+    transition: 1s;
+    transition-property: all;
+    /* transition-delay: 5s; */
+
+    /* transition: all 3s ease 0.5s; */
+    transition: all 3s cubic-bezier(0.74,-0.12, 0.22, 1.13) 0.5s;
+    /* (syntax) -> transition: transition-property transition-duration transition-timing-function transition-delay*/
+}
+
+.box:hover{
+    background-color: orange;
+    color: blue;
+    /* transform: rotate(180deg); */
+
+    transform: translateX(300px)  rotate(180deg);
+}

@@ -1,0 +1,12 @@
+h1{
+    text-shadow: 2px 2px 2px  red, 6px 6px 6px yellow ;
+}
+.box{
+    background-color: aquamarine;
+    width: 200px;
+    max-height: 200px;
+    box-shadow: -10px -10px 15px green,10px 10px 15px brown;
+    color: blue;
+    border: 1px solid black;
+    overflow: scroll;
+}
